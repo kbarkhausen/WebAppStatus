@@ -31,7 +31,7 @@ namespace WebAppStatus.Controllers
                 model.TestResults.Add(instance.Run());
             }
 
-            var template = EmbeddedResourceProvider.Read("WebHealthPage.Views.Health.Index.html");
+            var template = EmbeddedResourceProvider.Read("WebAppStatus.Views.Health.Index.html");
             var templateKey = Guid.NewGuid().ToString();
             var result = Engine.Razor.RunCompile(template, templateKey, null, model);
 

@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("A simple health page to add to any Web App")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Klaus Barkhausen")]
-[assembly: AssemblyProduct("WebApp Health Page")]
+[assembly: AssemblyProduct("WebAppStaus")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
